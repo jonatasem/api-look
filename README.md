@@ -1,38 +1,51 @@
 # Movie API
+
 ![Banner do Projeto](./public/api-movies.png)
 
-Este projeto é uma API simples para gerenciar uma lista de filmes. Ele permite que você obtenha, adicione e curta filmes.
+Este projeto é uma API simples que permite gerenciar uma lista de filmes, oferecendo funcionalidades para obter, adicionar e curtir filmes de forma eficiente.
 
 ## Tecnologias Utilizadas
 
-- Node.js
-- Express
-- CORS
-- JavaScript
+- *Node.js*: Ambiente de execução para JavaScript no lado do servidor.
+- *Express*: Framework para construção de APIs e aplicações web.
+- *CORS*: Middleware que permite o controle de acesso entre domínios.
+- *JavaScript*: Linguagem de programação utilizada no desenvolvimento.
 
 ## Pré-requisitos
-- Node.js (v12 ou superior)
+
+- *Node.js*: Versão 12 ou superior.
 
 ## Instalação
 
-1. Clone o repositório
+Siga os passos abaixo para executar o projeto localmente:
+
+1. *Clone o repositório*
+   bash
    git clone https://github.com/jonatasem/api-movies.git
    cd api-movies
    
-2. Instale as dependências
+2. *Instale as dependências*
+   bash
    npm install
    
-3. Inicie o servidor
+3. *Inicie o servidor*
+   bash
    npm start
    
 
-O servidor estará rodando em `http://localhost:5000`.
+Após iniciar o servidor, ele estará disponível em http://localhost:5000.
 
 ## Endpoints
 
-### GET /api/movies
+### 1. GET /api/movies
 
-Retorna a lista de todos os filmes.
+- *Descrição*: Retorna a lista de todos os filmes cadastrados.
+- *Resposta*: Um array de objetos, onde cada objeto representa um filme.
+
+### 2. Documentação da API: /api-docs
+
+- *Descrição*: Acesse a documentação interativa da API utilizando Swagger UI.
+- *Uso*: Navegue até http://localhost:5000/api-docs em seu navegador para visualizar e interagir com os endpoints disponíveis.
 
 ## Licença
 
