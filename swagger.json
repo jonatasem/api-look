@@ -30,6 +30,37 @@
                     }
                 }
             }
+        },
+        "/api/movies/{id}": {
+            "get": {
+                "summary": "Obter detalhes de um filme pelo ID",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "description": "ID do filme a ser buscado",
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Detalhes do filme retornados com sucesso",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Movie"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Filme não encontrado"
+                    }
+                }
+            }
         }
     },
     "components": {
@@ -63,4 +94,3 @@
         }
     }
 }
-
