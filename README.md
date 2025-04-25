@@ -1,4 +1,4 @@
-# Movie API
+# API Look
 
 ![Banner do Projeto](./public/api-movies.png)
 
