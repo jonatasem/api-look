@@ -2,6 +2,8 @@
 
 ![Banner do Projeto](./public/api-movies.png)
 
+![Banner do Projeto](./public/api-docs-look.png)
+
 Este projeto é uma API simples que permite gerenciar uma lista de filmes, oferecendo funcionalidades para obter, adicionar e curtir filmes de forma eficiente.
 
 ## Tecnologias Utilizadas
@@ -29,7 +31,6 @@ Siga os passos abaixo para executar o projeto localmente:
 3. *Inicie o servidor*
    npm start
    
-
 Após iniciar o servidor, ele estará disponível em http://localhost:5000.
 
 ## Endpoints
